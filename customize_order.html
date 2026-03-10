@@ -28,8 +28,9 @@
 
     <main class="customize_order_main">
         
+        <h3 id="timer">Order  Time Left: 10:00</h3>
 
-        <form action="order_summary.html">
+        <form>
             <div>
                 <img src="img/icecream_banner.jpeg" alt="Banner image for customizing order" id="banner_img">
             </div>
@@ -41,6 +42,7 @@
             <label for="type_cup">Cup</label><br><br>
             <input type="radio" id="type_cone" name="type" value="Cone">
             <label for="type_cone">Cone</label><br><br>
+            <span id="type_error"></span>
             <button type="button" name="update_order" value="submit_icecream_type">Submit Selection</button>
 
             <h2>Chocolate Bliss</h2>
@@ -52,16 +54,20 @@
             <label for="topping2">Chocolate Chips</label><br><br>
             <input type="checkbox" id="topping3" name="topping3" value="Whipped Cream">
             <label for="topping3">Whipped Cream</label><br><br>
+            <span id="toppings_error"></span>
             <button type="button" name="update_order" value="submit_toppings">Submit Selection</button>
 
             <br>
-            <button type="submit">Finish Order</button>
+            <h3 id="total_price"></h3>
+            <button type="button">Finish Order</button>
         </form>
     </main>
 
     <footer>
         <p>&copy; 2026 Sweet Scoop Ice Cream.</p>
     </footer>
+
+    <script src="customize_order.js"></script>
 </body>
 
 </html>
