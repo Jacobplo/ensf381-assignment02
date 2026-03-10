@@ -200,6 +200,10 @@ form button,
     text-align: center;
     box-sizing: border-box;
 }
+.ice_cream_tile:hover {
+  background-color: #eeeeee;
+  border: 20px solid #eeeeee;
+}
 
 .ice_cream_tile img {
     width: 100%;
