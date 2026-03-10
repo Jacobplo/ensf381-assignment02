@@ -81,6 +81,25 @@ main section {
     flex-direction: column;
     padding: 25px;
 }
+#cart {
+  display: block;
+  justify-content: left;
+  align-items: left;
+  padding: 20px
+}
+#cart h2 {
+  text-align: left;
+  margin-bottom: 0px;
+}
+.cart_item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 2px solid #f9e2c8;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
 
 footer {
     background-color: #f9e2c8;
