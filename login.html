@@ -29,7 +29,7 @@
         <div id="login_container">
             <h2>Welcome Back!</h2>
             <p>Please enter your username to log in.</p>
-            <form id="login_form" action="menu_view.html">
+            <form id="login_form">
                 <label for="username">Username:</label><br>
                 <input type="text" id="username" name="username" required><br><br>
 
@@ -41,14 +41,23 @@
                     <label for="forgot_password">Forgot Password?</label><br><br>
                 </div>
 
-                <button type="submit">Login</button>
+                <button type="button", id="submit">Login</button>
+                <div>
+                    <br>
+                    <label> New User?</label>
+            <button type="button" onclick="window.location.href='signup.html'">Create An Account</button>
+                </div>
             </form>
+            <div id="signInBox">
+
+            </div>
         </div>
     </main>
 
     <footer>
         <p>&copy; 2026 Sweet Scoop Ice Cream.</p>
     </footer>
+    <script src="login.js"></script>
 </body>
 
 </html>
