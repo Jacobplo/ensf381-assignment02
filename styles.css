@@ -16,7 +16,14 @@ main {
 }
 
 main section h2 { text-align: center; }
-
+main h4{
+    position: sticky;
+    top : 50px
+}
+.cart-container{
+    position: sticky;
+    bottom: 60px;
+}
 header {
     background-color: #f9e2c8;
     display: flex;
@@ -141,8 +148,8 @@ footer {
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     padding: 20px;
+    margin-bottom: 70px;
 }
-
 #login_form {
     text-align: center;
     margin: 0 auto 70px;
